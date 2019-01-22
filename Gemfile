@@ -57,7 +57,7 @@ group :development do
   # A command line tool to easily handle events on file system modification
   gem 'guard', '~> 2.14', '>= 2.14.1'
   # Live reloads browser when changes are made
-  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
   # Make errors look better
   gem 'better_errors', '~> 2.4'
 end
